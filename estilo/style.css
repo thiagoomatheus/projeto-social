@@ -4,8 +4,47 @@
     padding: 0;
 }
 
+/* Configurações gerais*/
+
 body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat center center;
     background-size: cover;
-    box-shadow: inset 20px 20px 20px black;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.381);
+}
+
+/* Header*/
+
+nav {
+    border: 1px solid white;
+    float: right;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li img {
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4)
+}
+
+/*Section*/
+
+main {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+section {
+    border: 1px solid white;
+    height: 99vh;
+}
+
+section img {
+    height: 94vh;
+    min-height: 650px;
+    display: block;
+    margin: 3vh auto;
 }
