@@ -7,59 +7,52 @@
 /* Configurações gerais*/
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat center center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center fixed;
     background-size: cover;
     box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.381);
     height: 100vh;
+    width: 100vw;
     min-height: 700px;
+    min-width: 800px;
+    position: relative;
+    height: 100vh;
 }
 
 /* Header*/
 
 nav {
-    border: 1px solid white;
-    float: right;
-    margin-top: 20px;
-    margin-right: 20px;
+    text-align: right;
 }
 
-nav li {
-    list-style: none;
-    padding-bottom: 15px;
-}
-
-nav li img {
-    height: 60px;
+nav img {
+    width: 60px;
     border-radius: 50%;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+}
+
+nav img:hover {
+    margin: 10px;
+    border: 1px solid white;
+    
 }
 
 /*Section*/
 
-main {
-    height: 100vh;
-    width: 100%;
+section {
     position: absolute;
-}
-/*
-section {
-    border: 1px solid white;
-    height: 99vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
-section img {
-    height: 94vh;
-    min-height: 650px;
-    display: block;
-    margin: 3vh auto;
-}
-*/
-
-section {
-    border: 1px solid white;
-    background: url(../imagens/frame-iphone.png) no-repeat center center;
-    background-size: contain;
-    height: 706px;
-    margin: 3vh 0;
-    min-width: 800px;
+iframe {
+    position: absolute;
+    left: 23px;
+    top: 82px;
+    height: 469px;
+    width: 266px;
 }
