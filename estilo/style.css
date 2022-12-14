@@ -10,6 +10,8 @@ body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat center center;
     background-size: cover;
     box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.381);
+    height: 100vh;
+    min-height: 700px;
 }
 
 /* Header*/
@@ -17,16 +19,19 @@ body {
 nav {
     border: 1px solid white;
     float: right;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 nav li {
     list-style: none;
+    padding-bottom: 15px;
 }
 
 nav li img {
-    height: 100px;
+    height: 60px;
     border-radius: 50%;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4)
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 /*Section*/
@@ -36,7 +41,7 @@ main {
     width: 100%;
     position: absolute;
 }
-
+/*
 section {
     border: 1px solid white;
     height: 99vh;
@@ -47,4 +52,14 @@ section img {
     min-height: 650px;
     display: block;
     margin: 3vh auto;
+}
+*/
+
+section {
+    border: 1px solid white;
+    background: url(../imagens/frame-iphone.png) no-repeat center center;
+    background-size: contain;
+    height: 706px;
+    margin: 3vh 0;
+    min-width: 800px;
 }
